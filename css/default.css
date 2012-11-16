@@ -1,0 +1,102 @@
+/***********************
+Page Styles
+************************/
+body {
+  margin: 0px;
+  background: #CCE6FF;
+  font-family: arial, verdana, sans-serif;
+}
+
+body:after {
+  content: 'mobile';
+  display: none;
+}
+
+#wrapper {
+	margin: 0 auto;
+}
+
+
+/***********************
+Body Styles
+************************/
+
+h1 {
+	text-align: center;
+	font-family: "Gill Sans MT", "Arial", "Tahoma", sans-serif;
+  font-size: 1.8em;
+	margin: 14px 0 5px 0;
+	color: #0052CC;
+}
+
+a {
+	text-decoration: none;	
+}
+
+h1 a:visited {
+	color: #0052CC;
+}
+
+li a {
+	height: 38px;
+	width: 80px;
+	display: block;
+	color: white;
+}
+
+ul {
+	text-align: center;
+	margin: 14px auto;
+	padding: 0px;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+	width: 80px;
+	text-align: center;
+	border: 2px solid white; /*#B20047*/
+	background: #FF1919;
+	background: -moz-linear-gradient(top,#FF1919,#B33133);
+	background: -webkit-gradient(linear,left top,left bottom,from(#FF1919),to(#B33133));
+	font-size: 0.8em;
+	padding-top: 8px;
+	border-radius: 14px;
+	color: white;
+}
+
+section {
+	padding: 0;
+	margin: 20px 0 60px 0;
+	text-align: center;
+}
+
+h2 {
+	padding: 5px 0 0 10px;
+	margin: 0px;
+	font-size: 1.1em;
+	color: #0052CC;
+	text-align: left;
+}
+
+img {
+	margin: 3px auto 20px auto;
+	display: block;
+}
+
+footer {
+	display: block;
+	text-align: center;
+}
+
+#top {
+	position:fixed;
+	bottom: 5%;
+	right: 5%;
+/* font-size: 0.8em;
+	text-align: right; */
+}
+
+#switch {
+	font-size: 0.8em;
+}

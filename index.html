@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.1">
+  <link rel="stylesheet" href="css/default.css">
+  <link rel="stylesheet" media="screen and (max-width:320px)" href="css/small.css">
+  <link rel="stylesheet" media="screen and (min-width:640px)" href="css/large.css">
+  <title>Caltrain Schedule</title>
+</head>
+<body>
+  <div id="wrapper">    
+    <header>
+      <h1> <a href="index.html">Caltrain Schedule</a></h1>
+    </header>
+    <nav>
+      <!--<ul>
+        <li><input type="button" value="dayN" id="dayN1"></li>
+        <li><input type="button" value="dayS" id="dayS1"></li>
+        <li><input type="button" value="endN" id="endN1"></li>
+        <li><input type="button" value="endS" id="endS1"></li>
+      </ul>-->
+      <ul>
+        <li><a href="#dayN" class="shift">Weekday North</a></li>
+        <li><a href="#dayS" class="shift">Weekday South</a></li>
+        <li><a href="#endN" class="shift">Weekend North</a></li>
+        <li><a href="#endS" class="shift">Weekend South</a></li>
+      </ul>
+    </nav>
+    <section>
+      <h2 id="dayN">Weekday Northbound Schedule</h2>    
+      <img src="img/Weekday_North_Mobile.jpg" alt="Weekday_North" class="weekday"
+        data-large="img/Weekday_North_Desktop.jpg">
+      <h2 id="dayS">Weekday Southbound Schedule</h2>
+      <img src="img/Weekday_South_Mobile.jpg" alt="Weekday_South" class="weekday"
+        data-large="img/Weekday_South_Desktop.jpg">
+      <h2 id="endN">Weekend Northbound Schedule</h2>
+      <img src="img/Weekend_North_Mobile.jpg" alt="Weekend_North"
+        data-large="img/Weekend_North_Desktop.jpg">
+      <h2 id="endS">Weekend Southbound Schedule</h2>
+      <img src="img/Weekend_South_Mobile.jpg" alt="Weekend_South"
+        data-large="img/Weekend_South_Desktop.jpg">
+    </section>
+    <footer>
+      <div class="top" id="top">
+        <input type="button" value=" ^ ">
+      </div>
+      <a href="#" id="switch">Full Site</a>
+    </footer>
+  </div>
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/train.js"></script>
+</body>
+</html>

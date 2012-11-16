@@ -1,0 +1,35 @@
+/***********************
+Page Styles
+************************/
+body {
+	background: #CCE6FF;
+}
+
+body:after {
+  content: 'desktop';
+  display: none;
+}
+
+/*
+  div#wrapper {
+    width: 400px;
+  }
+  div#header {
+    background-image: url(media-queries-phone.jpg);
+    height: 93px;
+    position: relative;
+  }
+  div#header h1 {
+    font-size: 140%;
+  }
+  #content {
+    float: none;
+    width: 100%;
+  }
+  #navigation {
+    float:none;
+    width: auto;
+  }
+*/
+}
+
